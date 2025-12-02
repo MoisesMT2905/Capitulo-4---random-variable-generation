@@ -6,12 +6,17 @@
 *.war
 *.ear
 
+# Java build directories
+target/
+build/
+
 # Node.js dependencies
 node_modules/
 
 # Next.js build output
 .next/
 out/
+.cache/
 
 # Log files
 *.log
@@ -23,6 +28,9 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # IDE
 .idea/
@@ -30,6 +38,10 @@ pnpm-debug.log*
 .vscode/
 *.swp
 *~
+
+# Temporary files
+*.tmp
+*.temp
 
 # OS files
 .DS_Store
